@@ -1,5 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
+import './Profile.css';
 
 function Profile(props) {
   return (
@@ -39,15 +40,15 @@ function Profile(props) {
                 <Typical
                   loop={Infinity}
                   steps={[
-                    "Ethusiastic Dev",
+                    "Ethusiastic Dev🔴",
                     1000,
-                    "Full Stack Developer",
+                    "Full Stack Developer💻",
                     1000,
-                    "Mern Stack Developer Dev",
+                    "Mern Stack Developer Dev💎",
                     1000,
-                    "Cross Platform v",
+                    "SaS Account Management💼",
                     1000,
-                    "React/React Native Dev",
+                    "Email Marketing Specialist📬",
                     1000,
                   ]}
                 />
