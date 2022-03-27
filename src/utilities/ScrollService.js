@@ -79,7 +79,7 @@ export default class ScrollService {
 
         if (fullyVisible) {
           // BROADCAST SCREEN NAME
-          ScrollService.currentScreenBroadcaster.next({
+          ScrollService.currentScreenBroadCaster.next({
             screenInView: screen.screen_name,
           });
           break;
