@@ -5,6 +5,7 @@
     justify-content: center;
     height: 10%;
     min-height:fit-content;
+    background-image: url("../../../assets/Home/bg.jpg");
   
 }
 
@@ -73,6 +74,8 @@
     background-image: url(../../../assets/Home/linkedinprofile.jpg);
     background-size: cover;
     border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .profile-picture-background:hover{ 
@@ -143,6 +146,6 @@
         margin-top: -90px;
     }
     .profile-details {
-        width: 90%;
+        width: 95%;
     }
 }
